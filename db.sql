@@ -64,3 +64,4 @@ SELECT songs.title, songs.artist
 FROM favorites 
 JOIN songs ON favorites.song_id = songs.id 
 WHERE favorites.user_id = 3;
+
